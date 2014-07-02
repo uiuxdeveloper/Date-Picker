@@ -35,6 +35,22 @@
 //
 //
 //
+// Fade BG Text on Focus/Unfocus
+	$( "#dateSelect input" ).on("focus", function(){
+		$("#desc").fadeTo( 250, .1 );
+	}).on("blur", function(){
+		var t = window.setInterval(function(){
+			if( $("#ui-datepicker-div").is(":hidden")){
+				$("#desc").fadeTo( 100, 1 );
+				clearTimeout(t)
+			}
+		}, 150);
+	});
+// END: Fade BG Text on Focus
+//
+//
+//
+//
 // Validate Date Picker Field
 	var validateDate = {
 		// params
@@ -58,7 +74,7 @@
 					return convertedDate;
 			},
 			validateMinRange: function() {
-				this.minDate = this.getToday().setDate( -365 );
+				this.minDate = this.getToday().setDate( -333 );
 
 				if( this.dateInput < this.minDate ) {
 					this.isError = true;
@@ -67,7 +83,7 @@
 				}
 			},
 			validateMaxRange: function() {
-				this.maxDate = this.getToday().setDate( 365 );
+				this.maxDate = this.getToday().setDate( 398 );
 				
 				if( this.dateInput > this.maxDate ) {
 					this.isError = true;
@@ -105,14 +121,3 @@
 	};
 	validateDate._init();
 // END: Validate Date Picker Field
-//
-//
-//
-//
-// Fade BG Text on Focus
-	$( "#dateSelect input" ).on("focus", function(){
-		$("#desc").fadeTo( 250, .2 );
-	}).on("change", function(){
-		$("#desc").fadeTo( 250, 1 );
-	});
-// END: Fade BG Text on Focus
