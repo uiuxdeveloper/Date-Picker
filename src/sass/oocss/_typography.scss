@@ -1,0 +1,15 @@
+// Typography
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+	body { font-family: 'Open Sans', Arial, sans-serif; }
+
+	h1, h2, h3{ @extend .man; }
+
+	.tac{ text-align: center !important; }
+	.tal{ text-align: left; }
+	.tar{ text-align: right; }
+	.taj{ text-align: justified; }
+
+	.txt-off{ text-indent: -9999em; }
+
+	.err{ color: red; }
+	.desc{ margin: 10% 2% 0; }

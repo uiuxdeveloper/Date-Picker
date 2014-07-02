@@ -1,0 +1,46 @@
+// Components
+	// backgrounds
+		.bg-full{
+			@extend .fw;
+			@extend .fh;
+			position: absolute; 
+			top: 0; 
+			left: 0;
+			background-repeat: no-repeat;
+			background-position: center;
+			display: block;
+
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+			.bg-main { 
+				position: fixed;
+				top: 0;
+				z-index: 0;
+				background-image: url(../img/bg/bg_main.jpg); 
+				width: 1920px !important;
+				margin: 0 auto;
+			}
+//
+//
+//
+//
+// Layout
+	.content{ 
+		margin-top: 2%;
+		padding: 2%; 
+		border: 1px solid #ccc;
+		height: 720px;
+	}
+	.ico_date{
+		@extend .spr-ico_date;
+		float: left;
+		margin-top: -2.5%;
+	}
+	.err{ 
+		display: none;
+		float: right; 
+		margin-right: 2%;
+	}

@@ -1,0 +1,17 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "~2.1.0",
+    "jquery-colorbox": "~1.5.5",
+    "jquery-migrate": "~1.2.1",
+    "jquery-mousewheel": "~3.1.9",
+    "jquery-waypoints": "~2.0.4",
+    "modernizr": "~2.7.2",
+    "sass-bootstrap": "~3.0.2",
+    "skrollr": "~0.6.21",
+    "foundation": "~5.2.2"
+  }
+}

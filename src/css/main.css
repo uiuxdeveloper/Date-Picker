@@ -1,0 +1,422 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/* line 4, ../sass/sprites/_sprites.scss */
+.sprite, .spr-blank, .spr-ico_date-red, .spr-ico_date, .ico_date {
+  position: relative;
+  display: block;
+  text-indent: -9999em;
+  overflow: hidden;
+}
+
+/* line 64, spr/*.png */
+.spr-sprite, .spr-blank, .spr-ico_date-red, .spr-ico_date, .ico_date {
+  background-image: url('../img/spr-sab4a36dad3.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/sprites/_base.scss */
+.spr-blank {
+  background-position: 0 0;
+  height: 1px;
+  width: 1px;
+}
+
+/* line 84, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/sprites/_base.scss */
+.spr-ico_date-red {
+  background-position: 0 -1px;
+  height: 48px;
+  width: 48px;
+}
+
+/* line 84, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/sprites/_base.scss */
+.spr-ico_date, .ico_date {
+  background-position: 0 -49px;
+  height: 49px;
+  width: 48px;
+}
+
+/* line 2, ../sass/oocss/_reset.scss */
+* {
+  outline: none;
+}
+
+/* line 3, ../sass/oocss/_reset.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 4, ../sass/oocss/_reset.scss */
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+/* line 5, ../sass/oocss/_reset.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 7, ../sass/oocss/_reset.scss */
+html, body {
+  background: #fffff !important;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 13, ../sass/oocss/_reset.scss */
+section {
+  margin: 2% auto;
+  max-width: 520px;
+}
+
+/* line 17, ../sass/oocss/_reset.scss */
+input {
+  margin-left: 2%;
+}
+
+/* line 2, ../sass/oocss/_layout.scss */
+.fw, .bg-full {
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+/* line 8, ../sass/oocss/_layout.scss */
+.fh, .bg-full {
+  height: 100%;
+  border-collapse: collapse;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: initial;
+}
+
+/* line 15, ../sass/oocss/_layout.scss */
+.dn, .none {
+  display: none !important;
+}
+
+/* line 16, ../sass/oocss/_layout.scss */
+.df {
+  display: fixed;
+}
+
+/* line 17, ../sass/oocss/_layout.scss */
+.dtr {
+  display: table-row;
+}
+
+/* line 2, ../sass/oocss/_spacing.scss */
+.fn {
+  float: none;
+}
+
+/* line 3, ../sass/oocss/_spacing.scss */
+.fl {
+  float: left;
+}
+
+/* line 4, ../sass/oocss/_spacing.scss */
+.fr {
+  float: right;
+}
+
+/* line 7, ../sass/oocss/_spacing.scss */
+.pan, .pvn, .ptn {
+  padding-top: 0 !important;
+}
+
+/* line 8, ../sass/oocss/_spacing.scss */
+.pan, .phn, .prn {
+  padding-right: 0 !important;
+}
+
+/* line 9, ../sass/oocss/_spacing.scss */
+.pan, .pvn, .pbn {
+  padding-bottom: 0 !important;
+}
+
+/* line 10, ../sass/oocss/_spacing.scss */
+.pan, .phn, .pln {
+  padding-left: 0 !important;
+}
+
+/* line 13, ../sass/oocss/_spacing.scss */
+.maa, .mva, .mta {
+  margin-top: auto !important;
+}
+
+/* line 14, ../sass/oocss/_spacing.scss */
+.maa, .mha, .mra {
+  margin-right: auto !important;
+}
+
+/* line 15, ../sass/oocss/_spacing.scss */
+.maa, .mva, .mba {
+  margin-bottom: auto !important;
+}
+
+/* line 16, ../sass/oocss/_spacing.scss */
+.maa, .mha, .mla {
+  margin-left: auto !important;
+}
+
+/* line 18, ../sass/oocss/_spacing.scss */
+.man, h1, h2, h3, .mvn, .mtn {
+  margin-top: 0 !important;
+}
+
+/* line 19, ../sass/oocss/_spacing.scss */
+.man, h1, h2, h3, .mhn, .mrn {
+  margin-right: 0 !important;
+}
+
+/* line 20, ../sass/oocss/_spacing.scss */
+.man, h1, h2, h3, .mvn, .mbn {
+  margin-bottom: 0 !important;
+}
+
+/* line 21, ../sass/oocss/_spacing.scss */
+.man, h1, h2, h3, .mhn, .mln {
+  margin-left: 0 !important;
+}
+
+/* line 23, ../sass/oocss/_spacing.scss */
+.ma3p, .mv3p, .mt3p {
+  margin-top: 3% !important;
+}
+
+/* line 24, ../sass/oocss/_spacing.scss */
+.ma3p, .mh3p, .mr3p {
+  margin-right: 3% !important;
+}
+
+/* line 25, ../sass/oocss/_spacing.scss */
+.ma3p, .mv3p, .mb3p {
+  margin-bottom: 3% !important;
+}
+
+/* line 26, ../sass/oocss/_spacing.scss */
+.ma3p, .mh3p, .ml3p {
+  margin-left: 3% !important;
+}
+
+/* line 28, ../sass/oocss/_spacing.scss */
+.ma5p, .mv5p, .mt5p {
+  margin-top: 5% !important;
+}
+
+/* line 29, ../sass/oocss/_spacing.scss */
+.ma5p, .mh5p, .mr5p {
+  margin-right: 5% !important;
+}
+
+/* line 30, ../sass/oocss/_spacing.scss */
+.ma5p, .mv5p, .mb5p {
+  margin-bottom: 5% !important;
+}
+
+/* line 31, ../sass/oocss/_spacing.scss */
+.ma5p, .mh5p, .ml5p {
+  margin-left: 5% !important;
+}
+
+/* line 33, ../sass/oocss/_spacing.scss */
+.ma10p, .mv10p, .mt10p {
+  margin-top: 10% !important;
+}
+
+/* line 34, ../sass/oocss/_spacing.scss */
+.ma10p, .mh10p, .mr10p {
+  margin-right: 10% !important;
+}
+
+/* line 35, ../sass/oocss/_spacing.scss */
+.ma10p, .mv10p, .mb10p {
+  margin-bottom: 10% !important;
+}
+
+/* line 36, ../sass/oocss/_spacing.scss */
+.ma10p, .mh10p, .ml10p {
+  margin-left: 10% !important;
+}
+
+/* line 38, ../sass/oocss/_spacing.scss */
+.ma11p, .mv11p, .mt11p {
+  margin-top: 11% !important;
+}
+
+/* line 39, ../sass/oocss/_spacing.scss */
+.ma11p, .mh11p, .mr11p {
+  margin-right: 11% !important;
+}
+
+/* line 40, ../sass/oocss/_spacing.scss */
+.ma11p, .mv11p, .mb11p {
+  margin-bottom: 11% !important;
+}
+
+/* line 41, ../sass/oocss/_spacing.scss */
+.ma11p, .mh11p, .ml11p {
+  margin-left: 11% !important;
+}
+
+/* line 43, ../sass/oocss/_spacing.scss */
+.ma15p, .mv15p, .mt15p {
+  margin-top: 15% !important;
+}
+
+/* line 44, ../sass/oocss/_spacing.scss */
+.ma15p, .mh15p, .mr15p {
+  margin-right: 15% !important;
+}
+
+/* line 45, ../sass/oocss/_spacing.scss */
+.ma15p, .mv15p, .mb15p {
+  margin-bottom: 15% !important;
+}
+
+/* line 46, ../sass/oocss/_spacing.scss */
+.ma15p, .mh15p, .ml15p {
+  margin-left: 15% !important;
+}
+
+/* line 48, ../sass/oocss/_spacing.scss */
+.ma20p, .mv20p, .mt20p {
+  margin-top: 20% !important;
+}
+
+/* line 49, ../sass/oocss/_spacing.scss */
+.ma20p, .mh20p, .mr20p {
+  margin-right: 20% !important;
+}
+
+/* line 50, ../sass/oocss/_spacing.scss */
+.ma20p, .mv20p, .mb20p {
+  margin-bottom: 20% !important;
+}
+
+/* line 51, ../sass/oocss/_spacing.scss */
+.ma20p, .mh20p, .ml20p {
+  margin-left: 20% !important;
+}
+
+/* line 2, ../sass/oocss/_position.scss */
+.posRel {
+  position: relative !important;
+}
+
+/* line 3, ../sass/oocss/_position.scss */
+.posAbs {
+  position: absolute;
+}
+
+/* line 4, ../sass/oocss/_position.scss */
+.posFix {
+  position: fixed;
+}
+
+/* line 5, ../sass/oocss/_position.scss */
+.pos-top {
+  top: 0;
+}
+
+/* line 7, ../sass/oocss/_position.scss */
+section:before {
+  content: '';
+  height: 100%;
+  float: left;
+}
+
+/* line 12, ../sass/oocss/_position.scss */
+.stretch:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* line 3, ../sass/oocss/_typography.scss */
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+/* line 7, ../sass/oocss/_typography.scss */
+.tac {
+  text-align: center !important;
+}
+
+/* line 8, ../sass/oocss/_typography.scss */
+.tal {
+  text-align: left;
+}
+
+/* line 9, ../sass/oocss/_typography.scss */
+.tar {
+  text-align: right;
+}
+
+/* line 10, ../sass/oocss/_typography.scss */
+.taj {
+  text-align: justified;
+}
+
+/* line 12, ../sass/oocss/_typography.scss */
+.txt-off {
+  text-indent: -9999em;
+}
+
+/* line 14, ../sass/oocss/_typography.scss */
+.err {
+  color: red;
+}
+
+/* line 15, ../sass/oocss/_typography.scss */
+.desc {
+  margin: 10% 2% 0;
+}
+
+/* line 3, ../sass/_custom.scss */
+.bg-full {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 18, ../sass/_custom.scss */
+.bg-main {
+  position: fixed;
+  top: 0;
+  z-index: 0;
+  background-image: url(../img/bg/bg_main.jpg);
+  width: 1920px !important;
+  margin: 0 auto;
+}
+
+/* line 31, ../sass/_custom.scss */
+.content {
+  margin-top: 2%;
+  padding: 2%;
+  border: 1px solid #ccc;
+  height: 720px;
+}
+
+/* line 37, ../sass/_custom.scss */
+.ico_date {
+  float: left;
+  margin-top: -2.5%;
+}
+
+/* line 42, ../sass/_custom.scss */
+.err {
+  display: none;
+  float: right;
+  margin-right: 2%;
+}

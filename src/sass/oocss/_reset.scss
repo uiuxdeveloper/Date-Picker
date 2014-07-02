@@ -1,0 +1,17 @@
+// Reset
+	*{ outline: none; }
+	.clearfix{*zoom:1}
+	.clearfix:before,.clearfix:after{display:table;content:"";line-height:0}
+	.clearfix:after{clear:both}
+
+	html,body { 
+		background: #fffff !important;
+		height: 100%; 
+		margin: 0px; 
+		padding: 0px;
+	}
+	section{ 
+		margin: 2% auto;
+		max-width: 520px;
+	}
+	input{ margin-left: 2%; }

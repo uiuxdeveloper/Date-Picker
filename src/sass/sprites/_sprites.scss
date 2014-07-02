@@ -1,0 +1,44 @@
+@import "compass/utilities/sprites";
+
+// Sprites
+	.sprite{ 
+		position: relative;
+		display:block;
+		text-indent:-9999em;
+		overflow:hidden;
+	}
+
+	// Generate Global Sprite
+		$spr-sprite-dimensions: true;
+		$spr-layout:smart;
+		@import "spr/*.png";
+		@include all-spr-sprites;
+
+ 			// extend .sprite
+			@each $item in sprite-names($spr-sprites){
+				.spr-#{$item} {
+					@extend .sprite
+				}
+			}
+ 
+		//links with hover and active background
+		//	.spr-btn_nav {
+		//		&:hover { @include spr-sprite(btn_nav-over) } }
+		//		.spr-btn_nav.active { @include spr-sprite(btn_nav-active) }
+
+	// Animated Sprite
+	//$sprBtn-sprite-dimensions: true;
+	//$sprBtn-layout:vertical;
+	//@import "sprBtn/*.png";
+	//@include all-sprBtn-sprites;
+	//
+	//	@each $item in sprite-names($sprBtn-sprites){
+	//		.sprBtn-#{$item} {
+	//			@extend .sprite;
+	//
+	//			top: 100px;
+	//			left: 60px;
+	//			text-indent: -9999em;
+	//			z-index: 1000;
+	//		}
+	//	}
